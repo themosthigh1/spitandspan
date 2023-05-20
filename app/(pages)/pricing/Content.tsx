@@ -4,6 +4,11 @@ import { Box, Divider, Typography } from "@mui/material"
 
 
 const Content = () => {
+
+  const escChar = "Customized Packages: We can create a tailored cleaning plan to accommodate your project's unique needs. Contact us for a personalized quote."
+
+  const escChar2 = ""
+
   return (
     <section>
       <PageTitle title={'Pricing'}/>
@@ -22,7 +27,7 @@ const Content = () => {
      <ul>
       <li>Small to Medium-sized Projects: Starting from $500</li>
        <li>Large Projects: Starting from $800</li>
-       <li>Customized Packages: We can create a tailored cleaning plan to accommodate your project's unique needs. Contact us for a personalized quote.</li>
+       <li>{escChar}</li>
      </ul>
      <Divider/>
      </Box>
